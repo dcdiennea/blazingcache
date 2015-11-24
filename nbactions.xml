@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-deploy</actionName>
+            <displayName>deploy</displayName>
+            <goals>
+                <goal>deploy</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-change version</actionName>
+            <displayName>change version</displayName>
+            <goals>
+                <goal>versions:set</goal>
+            </goals>
+            <properties>
+                <newVersion>0.0.0-BETA5</newVersion>
+            </properties>
+        </action>
+        <action>
+            <actionName>CUSTOM-versions:commit</actionName>
+            <displayName>versions:commit</displayName>
+            <goals>
+                <goal>versions:commit</goal>
+            </goals>
+        </action>
+    </actions>
